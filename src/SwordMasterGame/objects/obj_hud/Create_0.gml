@@ -1,0 +1,1 @@
+draw_sprite(spr_life,4,245,34);

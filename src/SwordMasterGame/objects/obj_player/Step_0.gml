@@ -1,6 +1,6 @@
 #region CONTROLES
-key_right = keyboard_check(ord("D")) // Mapeia tecla d para direita
-key_left = keyboard_check(ord("A")) // Mapeia tecla a para esquerda
+key_right = keyboard_check(ord("E")) // Mapeia tecla d para direita
+key_left = keyboard_check(ord("Q")) // Mapeia tecla a para esquerda
 key_jump = keyboard_check(vk_space) // mapeia espaço para pulo
 key_shoot = keyboard_check_pressed(ord("X")) // mapeia a tecla de tiro
 #endregion
