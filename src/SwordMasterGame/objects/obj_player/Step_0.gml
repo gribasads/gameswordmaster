@@ -63,3 +63,9 @@ image_angle=direction;
 }
 }
 #endregion
+
+if(global.life < 1){
+	game_restart()
+}
+
+show_debug_message(global.life)
