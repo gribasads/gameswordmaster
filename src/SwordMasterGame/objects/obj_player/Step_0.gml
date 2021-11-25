@@ -4,7 +4,7 @@ key_left = keyboard_check(ord("Q")) // Mapeia tecla a para esquerda
 key_jump = keyboard_check(vk_space) // mapeia espaço para pulo
 key_shoot = keyboard_check_pressed(ord("X")) // mapeia a tecla de tiro
 #endregion
-
+//teste
 #region MOVIMENTO
 var move= key_right - key_left
 
