@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Floor",
-    "path": "folders/Sprites/Itens do Cenário/Floor.yy",
+    "path": "folders/Sprites/Itens do Cenario/Floor.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_floor_top",
