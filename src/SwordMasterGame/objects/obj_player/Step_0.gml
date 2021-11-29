@@ -6,7 +6,7 @@ key_shoot = keyboard_check_pressed(ord("X")) // mapeia a tecla de tiro
 #endregion
 //teste
 #region MOVIMENTO
-var move= key_right - key_left
+var move= key_right - key_left;
 
 hspd = move * spd; // velocidade horizontal vezes a velocidade
 vspd = vspd + grv; // trocar a direção
@@ -65,7 +65,7 @@ image_angle=direction;
 #endregion*/
 
 if(global.life < 1){
-	game_restart()
+	game_restart();
 }
 
 show_debug_message(global.life)
