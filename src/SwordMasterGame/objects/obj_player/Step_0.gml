@@ -71,6 +71,7 @@ if(global.life < 1){
 show_debug_message(global.life)
 
 #region sprites de movimentação
+	/*if(hspd != 0) image_xscale = sign(hspd);*/
 	if(keyboard_check(ord("X"))){
 		sprite_index = spr_player_atack;
 		if(image_index > image_number - 1){

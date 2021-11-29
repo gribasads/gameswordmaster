@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ninja_stand",
-    "path": "sprites/spr_ninja_stand/spr_ninja_stand.yy",
+    "name": "spr_thief_stand",
+    "path": "sprites/spr_thief_stand/spr_thief_stand.yy",
   },
   "solid": true,
   "visible": true,
@@ -20,15 +20,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Enemies",
+    "path": "folders/Objetos/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy",
+  "name": "obj_thief",
   "tags": [],
   "resourceType": "GMObject",
 }
