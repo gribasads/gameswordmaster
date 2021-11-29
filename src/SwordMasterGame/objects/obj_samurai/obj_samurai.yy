@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ninja_stand",
-    "path": "sprites/spr_ninja_stand/spr_ninja_stand.yy",
+    "name": "spr_samurai_stand",
+    "path": "sprites/spr_samurai_stand/spr_samurai_stand.yy",
   },
   "solid": true,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Enemies",
+    "path": "folders/Objetos/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy",
+  "name": "obj_samurai",
   "tags": [],
   "resourceType": "GMObject",
 }
