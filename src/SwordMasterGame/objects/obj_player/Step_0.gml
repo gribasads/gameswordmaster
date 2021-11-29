@@ -73,6 +73,13 @@ show_debug_message(global.life)
 #region sprites de movimentação
 	if(keyboard_check(ord("X"))){
 		sprite_index = spr_player_atack;
+		if(image_index > image_number - 1){
+			if(hspd != 0){
+				sprite_index = spr_player_run;
+			} else {
+				sprite_index = spr_player_stand;
+			} 
+		}
 	} else {
 		if(hspd != 0){
 			sprite_index = spr_player_run;

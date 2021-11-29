@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_bush1",
-    "path": "sprites/spr_bush1/spr_bush1.yy",
-  },
+  "spriteId": null,
   "tileWidth": 3,
   "tileHeight": 3,
   "tilexoff": 0,
