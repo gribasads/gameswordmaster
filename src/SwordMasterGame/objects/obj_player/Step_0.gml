@@ -43,7 +43,7 @@ if place_meeting(x,y+1,obj_wall) and key_jump
 }
 #endregion
 
-#region TIROS
+/*#region TIROS
 var flipped =direction;
 var gun_x = (x+4)*(flipped);
 var _xx = x + lengthdir_x(20,image_angle);
@@ -62,10 +62,23 @@ direction = -90 + 90 * other.image_xscale;
 image_angle=direction;
 }
 }
-#endregion
+#endregion*/
 
 if(global.life < 1){
 	game_restart()
 }
 
 show_debug_message(global.life)
+
+#region sprites de movimentação
+	if(keyboard_check(ord("X"))){
+		sprite_index = spr_player_atack;
+	} else {
+		if(hspd != 0){
+			sprite_index = spr_player_run;
+		} else {
+			sprite_index = spr_player_stand;
+		} 
+	}
+
+#endregion
