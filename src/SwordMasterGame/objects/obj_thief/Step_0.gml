@@ -29,30 +29,16 @@ y=y+vspd;
 
 #region Perseguindo
 
-function atacar(){
-	sprite_index = spr_thief_attack;
-}
-
 function perseguir(){
-	vir  = sign(obj_player.x - x);
-	hspd = vir * 4;
 	
-	if( distance_to_object(obj_player) > raioDeVisao){
-		hspd = 0;
-		sprite_index = spr_thief_stand;
-	}
 	
-	if( distance_to_object(obj_player) < 30){
-		atacar();
-	} 
+	
 }
 
 
 
-if( distance_to_object(obj_player) <= raioDeVisao){	
-	sprite_index = spr_thief_run;
-	perseguir();
-	
+if( distance_to_object(obj_player) <= raioDeVisao ){	
+	ScriptThiefChase();
 } 
  
 
