@@ -10,7 +10,7 @@ if place_meeting(x+hspd,y,obj_wall)
  {
   x=x+sign(hspd);
  }
- hspd=0;
+ hspd = 0;
 }
 x=x+hspd;
 
@@ -23,23 +23,14 @@ if place_meeting(x,y+vspd,obj_wall)
  }
  vspd=0;
 }
-y=y+vspd;
+y = y + vspd;
 
 #endregion
 
 #region Perseguindo
 
-function perseguir(){
-	
-	
-	
-}
-
-
-
 if( distance_to_object(obj_player) <= raioDeVisao ){	
 	ScriptThiefChase();
 } 
  
-
 #endregion

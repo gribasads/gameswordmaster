@@ -22,9 +22,7 @@
             {"properties":[],"isDnd":false,"objectId":{"name":"obj_ninja","path":"objects/obj_ninja/obj_ninja.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1918.0,"y":228.0,"resourceVersion":"1.0","name":"inst_20DCE1B1","tags":[],"resourceType":"GMRInstance",},
             {"properties":[],"isDnd":false,"objectId":{"name":"obj_ninja","path":"objects/obj_ninja/obj_ninja.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2569.0,"y":229.0,"resourceVersion":"1.0","name":"inst_5E4ADEED","tags":[],"resourceType":"GMRInstance",},
           ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"instance_ninja","tags":[],"resourceType":"GMRInstanceLayer",},
-        {"instances":[
-            {"properties":[],"isDnd":false,"objectId":{"name":"obj_samurai","path":"objects/obj_samurai/obj_samurai.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3969.0,"y":545.0,"resourceVersion":"1.0","name":"inst_2FBA2D06","tags":[],"resourceType":"GMRInstance",},
-          ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"instance_samurai","tags":[],"resourceType":"GMRInstanceLayer",},
+        {"instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"instance_samurai","tags":[],"resourceType":"GMRInstanceLayer",},
       ],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instance_Enemies","tags":[],"resourceType":"GMRLayer",},
     {"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
@@ -288,7 +286,6 @@
     {"name":"inst_380236D6","path":"rooms/rm1/rm1.yy",},
     {"name":"inst_20DCE1B1","path":"rooms/rm1/rm1.yy",},
     {"name":"inst_5E4ADEED","path":"rooms/rm1/rm1.yy",},
-    {"name":"inst_2FBA2D06","path":"rooms/rm1/rm1.yy",},
     {"name":"inst_4901588B","path":"rooms/rm1/rm1.yy",},
   ],
   "inheritCreationOrder": false,
