@@ -1,0 +1,1 @@
+global.hit = 1;
