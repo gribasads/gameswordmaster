@@ -1,12 +1,3 @@
-/*#region VIDA
-
-if(global.samurailife < 1){
-	instance_destroy();
-}
-
-#endregion*/
-
-
 #region MOVIMENTO
 vspd = vspd + grv; // trocar a direção
 
@@ -28,7 +19,7 @@ if place_meeting(x,y+vspd,obj_wall)
 {
  while(!place_meeting(x,y+sign(vspd),obj_wall))
  {
-  y=y+sign(vspd);
+  y = y + sign(vspd);
  }
  vspd = 0;
 }
@@ -38,8 +29,10 @@ y = y + vspd;
 
 #region Perseguindo
 
-if( distance_to_object(obj_player) <= raioDeVisao ){	
+if( distance_to_object(obj_player) <= raioDeVisao ){
+	
 	ScriptSamuraiChase();
+	
 } 
  
 #endregion

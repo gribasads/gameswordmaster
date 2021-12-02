@@ -29,8 +29,10 @@ y = y + vspd;
 
 #region Perseguindo
 
-if( distance_to_object(obj_player) <= raioDeVisao ){	
+if( distance_to_object(obj_player) <= raioDeVisao ){
+	
 	ScriptThiefChase();
+	
 } 
  
 #endregion

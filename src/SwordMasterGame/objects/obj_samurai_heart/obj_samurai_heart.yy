@@ -27,7 +27,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_hud",
+  "name": "obj_samurai_heart",
   "tags": [],
   "resourceType": "GMObject",
 }
