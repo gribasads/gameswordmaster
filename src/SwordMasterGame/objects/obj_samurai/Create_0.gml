@@ -1,4 +1,4 @@
-global.samurailife = 4;
+global.samuraiLife = 4;
 spd  = 5;
 hspd = 0;
 vspd = 0;

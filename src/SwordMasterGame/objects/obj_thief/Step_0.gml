@@ -21,7 +21,7 @@ if place_meeting(x,y+vspd,obj_wall)
  {
   y=y+sign(vspd);
  }
- vspd=0;
+ vspd = 0;
 }
 y = y + vspd;
 
@@ -29,8 +29,10 @@ y = y + vspd;
 
 #region Perseguindo
 
-if( distance_to_object(obj_player) <= raioDeVisao ){	
+if( distance_to_object(obj_player) <= raioDeVisao ){
+	
 	ScriptThiefChase();
+	
 } 
  
 #endregion

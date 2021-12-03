@@ -83,7 +83,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 42,
-    "yorigin": 109,
+    "yorigin": 110,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_thief_run","path":"sprites/spr_thief_run/spr_thief_run.yy",},
