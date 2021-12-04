@@ -44,3 +44,32 @@ if(global.samuraiLife < 1){
 }
 
 #endregion
+
+#region Doggers
+distanceToPlayer = distance_to_object(obj_player);
+
+if( distanceToPlayer > 50 and distanceToPlayer < 1000 ){
+
+	var flipped = direction;
+	var gun_x = ( x + 4 )*( flipped );
+	var _xx = x + lengthdir_x( 20 , image_angle );
+	var y_offset = lengthdir_y( -20 , image_angle );
+
+	shotTime--;
+	if( shotTime < 1 ){
+	
+		with (instance_create_layer( _xx , y - 30 , "Shoot" , obj_dagger )){
+			//velocidade do tiro
+			speed = 10;
+			//direção
+			direction = -90 + 90 * other.image_xscale;
+			//angulo
+			image_angle = direction;
+		}
+		shotTime = 100;
+	
+
+	}
+}
+
+#endregion
