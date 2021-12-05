@@ -47,6 +47,8 @@ if place_meeting(x,y+1,obj_wall) and key_jump
 
 #region VIDA
 
+#region VIDA
+
 if(global.life < 1){
 	game_restart();
 }
@@ -97,5 +99,20 @@ if(distance_to_object(obj_samurai) < 5){
 	
 }
 
+
+#endregion
+
+#region PLAYER VS SAMURAI
+
+if(sprite_index != spr_player_atack){
+	if(distance_to_object(obj_samurai) < 5){
+		sprite_index = spr_player_hit;
+		if(image_index > image_number - 1){
+		
+			global.life--;
+		
+		}
+	}
+}
 
 #endregion
