@@ -47,9 +47,18 @@ if place_meeting(x,y+1,obj_wall) and key_jump
 
 #region VIDA
 
+ 
 if(global.life < 1){
-	game_restart();
+	if(instance_exists(obj_game_controller))
+ {
+ with(obj_game_controller){
+ game_over=true;
+ if(keyboard_check(vk_enter))game_restart();
+ }
+ }
+	
 }
+
 
 #endregion
 
