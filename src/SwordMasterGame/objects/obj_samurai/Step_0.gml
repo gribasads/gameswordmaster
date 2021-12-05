@@ -40,7 +40,14 @@ if( distance_to_object(obj_player) <= raioDeVisao ){
 #region VIDA
 
 if(global.samuraiLife < 1){
-	instance_destroy();
+	 instance_destroy();
+if(instance_exists(obj_game_controller))
+ {
+ with(obj_game_controller){
+ game_over=true;
+ if(keyboard_check(vk_enter))game_end();
+ }
+ }
 }
 
 #endregion

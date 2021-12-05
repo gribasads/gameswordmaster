@@ -45,10 +45,10 @@ if(game_over)
 	draw_set_halign(1);
 	//sombra
 	draw_set_color(c_red);
-	draw_text(meio_h+1,meio_h+1,"G a m e - O v e r\n Aperte Enter");
+	draw_text(meio_h+1,meio_h+1,"Thank You For Playing!");
 	//texto
 	draw_set_color(c_white);
-	draw_text(meio_h,meio_h,"G a m e - O v e r\n Aperte Enter");
+	draw_text(meio_h,meio_h,"Thank You For Playing!");
 	draw_set_font(-1);	
 	draw_set_valign(-1);
 	draw_set_halign(-1);
