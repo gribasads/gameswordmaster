@@ -47,9 +47,12 @@ if place_meeting(x,y+1,obj_wall) and key_jump
 
 #region VIDA
 
+ 
 if(global.life < 1){
-	game_restart();
+room_goto(rm_dead);
+	
 }
+
 
 #endregion
 
