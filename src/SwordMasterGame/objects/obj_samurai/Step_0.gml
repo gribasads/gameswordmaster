@@ -41,6 +41,7 @@ if( distance_to_object(obj_player) <= raioDeVisao ){
 
 if(global.samuraiLife < 1){
 	 instance_destroy();
+	 global.score += 500;
 if(instance_exists(obj_game_controller))
  {
  with(obj_game_controller){

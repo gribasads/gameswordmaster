@@ -122,6 +122,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":258.0,"y":608.0,"resourceVersion":"1.0","name":"inst_65910952","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player_heart","path":"objects/obj_player_heart/obj_player_heart.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.5,"scaleY":5.15036774,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":217.0,"y":122.0,"resourceVersion":"1.0","name":"inst_2C5CFBBB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_samurai_heart","path":"objects/obj_samurai_heart/obj_samurai_heart.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":1.18167436,"scaleX":-3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1120.0,"y":160.0,"resourceVersion":"1.0","name":"inst_C7D5905","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":160.0,"resourceVersion":"1.0","name":"inst_1D041A65","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":21.328125,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":683.5,"y":656.0,"resourceVersion":"1.0","name":"inst_5D037C1B","tags":[],"resourceType":"GMRInstance",},
@@ -141,6 +142,7 @@
     {"name":"inst_65910952","path":"rooms/rm_noite/rm_noite.yy",},
     {"name":"inst_2C5CFBBB","path":"rooms/rm_noite/rm_noite.yy",},
     {"name":"inst_C7D5905","path":"rooms/rm_noite/rm_noite.yy",},
+    {"name":"inst_1D041A65","path":"rooms/rm_noite/rm_noite.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
