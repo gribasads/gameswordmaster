@@ -43,6 +43,7 @@
     {"id":{"name":"rm_noite","path":"rooms/rm_noite/rm_noite.yy",},"order":1,},
     {"id":{"name":"obj_ninja","path":"objects/obj_ninja/obj_ninja.yy",},"order":0,},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},"order":2,},
+    {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"order":11,},
     {"id":{"name":"obj_shoot","path":"objects/obj_shoot/obj_shoot.yy",},"order":7,},
     {"id":{"name":"obj_retry","path":"objects/obj_retry/obj_retry.yy",},"order":10,},
     {"id":{"name":"PlayerHit","path":"scripts/PlayerHit/PlayerHit.yy",},"order":1,},
@@ -129,7 +130,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.7.603",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "SwordMasterGame",

@@ -102,3 +102,4 @@ if(distance_to_object(obj_samurai) < 5){
 
 
 #endregion
+
