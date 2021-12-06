@@ -1,1 +1,1 @@
-global.life = 0;
+global.life = 0; // zera a vida do Player

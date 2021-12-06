@@ -40,29 +40,14 @@ y = y + vspd;
 
 #region Disparo de Adagas
 
-var flipped = direction;
-var gun_x = ( x + 4 )*( flipped );
-var _xx = x + lengthdir_x( 20 , image_angle );
-var y_offset = lengthdir_y( -20 , image_angle );
+
 
 distanceToPlayer = distance_to_object(obj_player);
 
 if( distanceToPlayer < 1000 ){
-	shotTime--;
 	
-	if( shotTime < 1 ){
+	ScriptNinjaAttack();
 	
-		with (instance_create_layer( _xx , y - 5 , "Shoot" , obj_dagger )){
-			//velocidade do tiro
-			speed = 10;
-			//direção
-			direction = -90 + 90 * other.image_xscale;
-			//angulo
-			image_angle = direction;
-		}
-		shotTime = 100;
-	
-	}
 }
 
 
