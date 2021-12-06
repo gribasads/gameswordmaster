@@ -3,6 +3,7 @@
 Bem vindos, e conheçam o projeto Sword Master desenvolvido por mim e pelo meu grande amigo @betopicanco para a cadeira de Programação C da Faculdade Dom Bosco de Porto Alegre.
 
 ##COMO JOGAR
+
 os controles do game são:
 Tecla A: andar para a esquerda.
 Tecla D: andar para a direita.
