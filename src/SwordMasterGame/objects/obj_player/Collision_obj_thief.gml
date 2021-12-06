@@ -1,9 +1,9 @@
-if(sprite_index == spr_player_atack){
+if(sprite_index == spr_player_atack){	// se estiver atacando 
 	
-	PlayerAtack();
+	PlayerAtack();						// dispara o script de attack
 	
 } else {
 	
-	PlayerHit();
+	PlayerHit();						// dispara o script de hit
 	
 }

@@ -1,21 +1,14 @@
 function PlayerXSamurai(){
-	if( sprite_index != spr_player_atack ){
+	if( sprite_index != spr_player_atack ){ // se não esriver atacando
 		
-		sprite_index = spr_player_hit;
-		timeHit--;
+		PlayerHit();						// aciona o script de hit
 		
-		if(timeHit == 0){
-			
-			PlayerHit();
-			timeHit = 4;
-			
-		}
 	} else {
-		timeAttack--;
-		if(timeAttack == 0){
+		timeAttack--;						// diminui em 1 o tempo de ataque
+		if(timeAttack == 0){				// quando o tempo de ataque acaba
 			
-			global.samuraiLife--;
-			timeAttack = 20;
+			global.samuraiLife--;			// diminui em 1 o tempo de vida do Samurai
+			timeAttack = 20;				// reseta o tempo de ataque
 		}
 	}
 }
