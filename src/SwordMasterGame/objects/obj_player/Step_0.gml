@@ -14,11 +14,11 @@ vspd = vspd + grv; // velocidade vertical aumenta simulando a gravidade
 if(hspd !=0) image_xscale= sign(hspd);
 
 //colisão horizontal
-if place_meeting(x+hspd,y,obj_wall)  
+if place_meeting(x+hspd,y,obj_wall)  //colisão
 {
-	while(!place_meeting(x+sign(hspd),y,obj_wall))
+	while(!place_meeting(x+sign(hspd),y,obj_wall)) // se não estiver colidindo
 	{
-		x = x + sign(hspd); // altera o x do player de acordo com o a direção da velocidade horizontal
+		x = x + sign(hspd); // altera o x do player de acordo com o a direção da velocidade horizontal caso não colida
 	}
 	hspd = 0;
 }
@@ -53,6 +53,7 @@ if(global.life < 1){	// caso tenha menos de 1 vida
 	room_goto(rm_dead); // redireciona para a room de game over
 	
 }
+
 
 
 #endregion
